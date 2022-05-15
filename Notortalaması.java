@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Notortalamasý {
+public class NotortalamasÃ½ {
 	public static void main(String[] args) {
 		int mat,fizik,kimya,turkce,tarih,muzik;
 		Scanner input= new Scanner(System.in);
@@ -13,13 +13,13 @@ public class Notortalamasý {
 		System.out.print("kimya notunu giriniz:");
 		kimya = input.nextInt();
 		
-		System.out.print("türkçe notunu giriniz:");
+		System.out.print("tÃ¼rkÃ§e notunu giriniz:");
 		turkce = input.nextInt();
 		
 		System.out.print("tarih notunu giriniz:");
 		tarih = input.nextInt();
 		
-		System.out.print("müzik notunu giriniz:");
+		System.out.print("mÃ¼zik notunu giriniz:");
 		muzik = input.nextInt();
 		
 		int toplam= (mat+fizik+kimya+turkce+tarih+muzik);
@@ -27,7 +27,7 @@ public class Notortalamasý {
 		System.out.println("ortalama notunuz:"+ortalama);
 		
 		boolean sonuc=(ortalama<60);
-		String str=(sonuc)? "Sýnýfta Kaldý":"Sýnýfý Geçti";
+		String str=(sonuc)? "Sinifta Kaldi":"Sinifi GeÃ§ti";
 		System.out.println(str);
 		
 	}
